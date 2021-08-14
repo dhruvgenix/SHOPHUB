@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 10, 2021, 9:20:49 PM
+    Author     : ACER
+*/
+
+.mainrow{
+  
+    position:relative;
+    height:800px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    background-color: grey;
+}
+.subrow1{
+    height:100%;
+    width:25%;
+    background-color:whitesmoke;
+}
+.subrow2{
+   
+    height:100%;
+    width:75%;
+    padding-top:1%;
+    display:flex;
+    flex-direction:column;
+    
+    background-color: #e0a800;
+}
+.subrow21{
+    
+     height:50%;
+    width:100%;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+   
+  
+}
+.subrow22{
+      height:50%;
+    width:100%;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+   
+    
+}
+
+
+.mycard{
+   
+ border-radius: 40px;   
+ display: flex;
+ justify-content: center;
+}
+.mycardbody{
+    display: flex;
+    
+    justify-content: center;
+    margin:auto;
+}
